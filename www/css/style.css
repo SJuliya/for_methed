@@ -10,6 +10,10 @@
     gap: 30px;
 }
 
+.title {
+    display: none;
+}
+
 .form-search {
     width: 100%;
     max-width: 850px;

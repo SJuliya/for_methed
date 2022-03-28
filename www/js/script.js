@@ -25,7 +25,7 @@ const renderCard = (data) => {
          <h3 class="news-title">
              <a href="${news.url}" class="news-link" target="_blank">${news.title}</a>
          </h3>
-         <p class="news-description">${news.description}</p>
+         <p class="news-description">${news.description || ""}</p>
          <div class="news-footer">
              <time class="news-datetime" datetime="${news.publishedAt}">
                  <span class="news-date">${news.publishedAt}</span> 11:06

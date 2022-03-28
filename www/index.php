@@ -7,13 +7,12 @@
 
     <title>Only fresh news - Только свежие новости</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/styles/choices.min.css" />
-    <script src="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/scripts/choices.min.js" defer></script>
-
+    <link rel="stylesheet" href="css/choices.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/default.css">
 
+    <script src="js/choices.min.js" defer></script>
     <script src="js/script.js" defer></script>
 </head>
 <body>
@@ -47,7 +46,7 @@
     <div class="title-wrapper">
         <div class="container">
             <h1 class="visually-hidden">Агрегатор новостей - Only fresh news</h1>
-            <h2 class="title">По вашему запросу "новости про IT" найдено 0 результатов </h2>
+            <h2 class="title hide">По вашему запросу "новости про IT" найдено 0 результатов </h2>
         </div>
         <section class="news">
             <h2 class="visually-hidden">Список новостей</h2>
